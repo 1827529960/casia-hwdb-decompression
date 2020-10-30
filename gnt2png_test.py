@@ -25,10 +25,10 @@ for file in files:
     for k in range(0, len(tag)):
         im = Image.frombytes('L', (img_wid[k], img_hei[k]), img_bytes[k])
         if os.path.exists(IMG_PATH + "/" + tag[k].decode('gbk')):
-            im.save(IMG_PATH + "/" + tag[k].decode('gbk') + "/" + str(num) + ".jpg")
+            im.save(IMG_PATH + "/" + tag[k].decode('gbk') + "/" + str(num) + ".png")
         else:
             os.mkdir(IMG_PATH + "/" + tag[k].decode('gbk'))
-            im.save(IMG_PATH + "/" + tag[k].decode('gbk') + "/" + str(num) + ".jpg")
+            im.save(IMG_PATH + "/" + tag[k].decode('gbk') + "/" + str(num) + ".png")
     num = num + 1
 print(tag.__len__())
 
