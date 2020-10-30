@@ -1,4 +1,12 @@
 # CASIA-HWDB解压
+数据集下载链接：
+> http://www.nlpr.ia.ac.cn/databases/download/feature_data/HWDB1.1trn_gnt.zip
+> http://www.nlpr.ia.ac.cn/databases/download/feature_data/HWDB1.1tst_gnt.zip
+
+作者：Panverson
+链接：https://www.jianshu.com/p/27efcf38c0c9
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 #### 介绍
 CASIA-HWDB离线包HWDB1.1的解压
